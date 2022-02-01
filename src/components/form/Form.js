@@ -82,7 +82,7 @@ function Form() {
                     onChange={handleChange}
                     onBlur={handleBlur}
                     value={values.term}
-                    placeholder="Search"
+                    placeholder="Search... ex. (Eminem, Green Mile)"
                   />
                   <Text type="danger">
                     {errors.term && touched.term && errors.term}
